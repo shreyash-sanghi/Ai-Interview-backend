@@ -22,7 +22,6 @@ Ensure you have the following installed on your system:
    ```env
 DB_URI = mongodb+srv://spayasi78:56qLkkupnxVxNTs4@cloudsek.lcbq0.mongodb.net/?retryWrites=true&w=majority&appName=cloudSEK
 PORT = 3001
-UserToken = sdhgfhew37846234mq&^98&fgh2323vbntsjzuya&%9fdn
    ```
 
 ## Running the Backend Server
@@ -35,21 +34,6 @@ This will start the server on `http://localhost:3001`.
 
 ## API Endpoints
 
-### 1. Get All Posts (with Pagination)
-**Endpoint:** `GET /api/posts?page={page}&limit={limit}`
-- **Query Parameters:**
-  - `page` (default: 1) - The page number.
-  - `limit` (default: 5) - The number of posts per page.
-- **Response:**
-  ```json
-  {
-    "success": true,
-    "data": [...],
-    "totalPosts": 100,
-    "totalPages": 20,
-    "currentPage": 1
-  }
-  ```
 
 ## Folder Structure
 ```
