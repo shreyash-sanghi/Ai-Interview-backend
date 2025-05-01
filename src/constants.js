@@ -16,7 +16,6 @@ export const adminTypes = {
  const envProvider = {
     DBURI : process.env.DB_URI,
     PORT : process.env.PORT,
-    Auth : process.env.UserToken
 }
 
 

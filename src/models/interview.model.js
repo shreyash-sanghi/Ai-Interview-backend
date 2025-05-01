@@ -23,7 +23,6 @@ const InterviewSchema = new mongoose.Schema({
     },
     techStack: {
         type: String,
-        unique:true
     },
     questions:[{ question: String, answer: String }]
 }, { timestamps: true });
